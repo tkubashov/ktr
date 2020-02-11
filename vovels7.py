@@ -4,3 +4,5 @@ def search4letters(phrase: str, letters: str) -> set:
      
 print (search4letters("Zdorovo mister", "retzob"))
 print ("Chekin git and pycharm")
+print (search4letters("Zdorovo mister", "retzob"))
+print ("Chekin git and pycharm")
