@@ -1,3 +1,16 @@
-from vovels7 import search4letters
+def double(arg):
+    print ('Before:', arg)
+    arg = arg * 2
+    print('After', arg)
+number = 5
+double(number)
+print(number)
 
-print(search4letters("Zdorovo mister", "ov"))
+def change(args):
+    print('Before', args)
+    args.append('More data')
+    print('After', args)
+
+numbers = [10,5,6]
+change(numbers)
+print(numbers)
