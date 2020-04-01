@@ -1,4 +1,4 @@
-from vovels7 import search4letters
+from Modules.vovels7 import search4letters
 from flask import Flask, render_template, request, escape
 
 app = Flask(__name__)
@@ -22,7 +22,7 @@ def do_search() -> 'html':
                            the_title = title,
                            the_results = results,)
 
-
+@app.route('/')
 @app.route('/entry')
 def entry_page() -> 'html':
     return render_template('entry.html',
